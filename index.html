@@ -3,18 +3,34 @@
     <head>
         <meta charset="utf-8">
         <title>Js Esercizio</title>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     </head>
 
     <body>
-
+        <!-- container totale -->
         <div class="contenitore">
+            <div id="create-pass">
+                <h1>Generating your password:</h1>
+            </div>
 
-            <h2 id="password_generata"></h2>
-            
+            <!-- container password -->
+            <div id="password-container">
+                <!-- prima chiave -->
+                <div class="keys"><i class="fas fa-key"></i></div>
+                <div><h2 id="password_generata"></h2>
+                </div>
+                <!-- seconda chiave -->
+                <div class="keys"><i class="fas fa-key"></i></div>
+            </div>
+            <div id="final-message">
+                <h3 id="password_completed"></h3>
+            </div>
+         
         </div>
 
-
+        <!-- script js -->
         <script src="js/script.js" type="text/javascript">
         </script>
 
